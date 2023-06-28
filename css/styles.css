@@ -15,7 +15,6 @@ body {
 }
 
 .visually-hidden {
-    position: absolute;
     width: 1px;
     height: 1px;
     margin: -1px;
@@ -80,11 +79,14 @@ body {
 .header-addresse-item {
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--slate);
 }
 
-.header-addresse-item:hover,
-.header-addresse-item:focus {
+.header-addresse-link {
+color: var(--slate);
+}
+
+.header-addresse-link:hover,
+.header-addresse-link:focus {
     color: #404bbf;
 }
 
