@@ -223,8 +223,8 @@ navigation {}
 
 .navigation-list-item {}
 
-.navigation-text-accent:hover,
-.navigation-text-accent:focus {
+.navigation-text:hover,
+.navigation-text:focus {
     color: #FFFFFF;
     background-color: #404BBF;
 }
